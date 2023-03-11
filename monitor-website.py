@@ -41,8 +41,8 @@ def restart_container():
     print('Restarting the application...')
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect(hostname='139.162.130.236', username='root', key_filename='/Users/nanajanashia/.ssh/id_rsa')
-    stdin, stdout, stderr = ssh.exec_command('docker start c3e706bc905e')
+    ssh.connect(hostname='', username='root', key_filename="\\wsl.localhost\Ubuntu-22.04\home\chiom\.ssh\id_rsa")
+    stdin, stdout, stderr = ssh.exec_command('docker start 3708ba64941a')
     print(stdout.readlines())
     ssh.close()
 

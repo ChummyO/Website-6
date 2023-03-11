@@ -1,2 +1,8 @@
 venv
 .idea
+add-env-tags.py
+cleanup-snapshots.py
+ec2-status-checks.py
+eks-status-checks.py
+restore-volume.py
+volume-backups.py
