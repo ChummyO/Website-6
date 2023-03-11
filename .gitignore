@@ -6,3 +6,4 @@ ec2-status-checks.py
 eks-status-checks.py
 restore-volume.py
 volume-backups.py
+exercises
